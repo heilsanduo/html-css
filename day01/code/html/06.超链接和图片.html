@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        超链接的标签：a
+        必须的属性：href="你要跳转的地址"
+        title="提示文字" 鼠标放在a标签的时候，出现提示信息
+        target属性表示打开链接的窗口为当前的时候新窗口
+            取值：_blank 在新的窗口中打开链接
+                _self 在当前的窗口打开链接
+     -->
+    <a href="05.常用标签.html" title="点我去百度" target="_self">我要去百度</a>
+    <a href="#" title="点我没用" onclick="aaa()">空连接</a>
+    <!-- 
+        如何让阻止a标签跳转页面和刷新页面
+        方法：
+        （1）给href的属性值为JavaScript:;
+        （2）给a标签一个点击事件的方法，给这个方法返回return false(这个方式就是aaa)
+        <a href="#" title="点我没用" onclick="aaa()">空连接</a>
+            function aaa() {
+             return false;
+            }
+     -->
+    <img src="../images/02.jpg" alt="我显示不出来，救救我" border="3" width="200" height="300" title="我好美">
+    <!-- 
+        图片标签：img
+        必须属性：src="放图片路径的"
+        border="value" 边框
+        alt="图片显示不出来的时候，显示的提示文字信息"
+        title="鼠标放在图片上的提示信息"
+     -->
+
+    <script>
+        function aaa() {
+            return false;
+        }
+    </script>
+</body>
+
+</html>

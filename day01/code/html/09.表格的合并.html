@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <table width="200" height="100" border="1" cellspacing="0">
+        <!-- 
+            单元格的合并：不管是合并行还是合并列，都是对单元格进行操作，合并的属性都是给td添加
+            行合并：rowspan="value" 合并value个单元格
+            删除下一行对应位置的td
+
+            列合并：colspan="value" 合并value个单元格
+            删除本行下面value-1个td
+         -->
+        <tr>
+            <td></td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <!-- <td></td> -->
+        </tr>
+    </table>
+    <br>
+    <table width="200" height="100" border="1" cellspacing="0">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3"></td>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+        </tr>
+    </table>
+
+</body>
+
+</html>
