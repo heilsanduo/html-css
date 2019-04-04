@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        /* 
+            1、文字大小
+                font-size:数值 + 单位（px/em/rem/pt）
+            2、文字颜色
+                color:颜色的英文单词 | #+十六进制（6位）
+                扩展十六进制：
+                0-9a-f
+                颜色的组成：三原色（红，绿，蓝）
+                000000——前面两个数代表红色，中间两个数代表绿色，最后两个代表蓝色
+                0-f值越大表示颜色越亮，值越小表示颜色越暗
+            3、是否加粗
+                font-weight:字体加粗
+                取值：bold(加粗)| normal(正常不加粗) |100-900(100-500是正常的，600-900是加粗，没有单位的数值)
+            4、倾斜
+                font-style:italic(倾斜) | normal（正常不倾斜）|
+            5、字体样式
+                font-family:字体1,字体2
+                注意点：中文字体一定要用引号，英文字体（多个单词组成的）也要加引号
+            6、小型的大写字母
+                font-variant：small-caps(variant)|normal
+         */
+
+        div {
+            font-size: 60px;
+            color: #0000ff;
+            /* font-weight: 600; */
+            /* font-style: italic; */
+            font-family: "Comic Sans MS", "黑体", "宋体"
+        }
+
+        h1 {
+            font-weight: normal;
+        }
+
+        p {
+            font-size: 50px;
+        }
+
+        i {
+            font-style: normal;
+        }
+
+        span {
+            font-size: 30px;
+            font-variant: small-caps;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        先是朋友后是妹，最后变成小宝贝 i love you
+    </div>
+    <!-- <h1>我不物质，但是想要一些物质</h1>
+    <p>我不物质，但是想要一些物质</p> -->
+    <!-- <i>先是朋友后是妹，最后变成小宝贝</i> -->
+    <span>i love you</span>
+</body>
+
+</html>

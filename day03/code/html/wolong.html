@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <!-- 引入外部样式表 -->
+    <link rel="stylesheet" href="../css/wolong.css">
+</head>
+
+<body>
+    <!-- 
+        布局思路：先上下分块，在左右分块
+        （1）一个网页由一个盒子包括起来（给最外层一个div来作为这个盒子，并且给这个div一个id名）
+        （2）布局上下分块（每一个块用一个div表示，而且要相应的给class名）
+
+       左右布局： 浮动 float
+     -->
+    <div id="wolong">
+        <div class="w_header">
+            <h1 class="logo">卧龙</h1>
+            <div class="h_right">right</div>
+        </div>
+        <div class="w_nav">
+            <ul>
+                <li>
+                    <a href="">首页1</a>
+                </li>
+                <li>
+                    <a href="">首页2</a>
+                </li>
+                <li>
+                    <a href="">首页3</a>
+                </li>
+                <li>
+                    <a href="">首页4</a>
+                </li>
+                <li>
+                    <a href="">首页5</a>
+                </li>
+                <li>
+                    <a href="">首页6</a>
+                </li>
+                <li>
+                    <a href="">首页7</a>
+                </li>
+                <li>
+                    <a href="">首页8</a>
+                </li>
+            </ul>
+        </div>
+        <div class="w_banner">
+            <img src="../images/banner.png" alt="">
+        </div>
+        <div class="w_main"></div>
+        <div class="w_link"></div>
+        <div class="w_footer"></div>
+    </div>
+</body>
+
+</html>

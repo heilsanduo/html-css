@@ -1,0 +1,74 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background: #ccc;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+#wolong{
+    width: 999px;
+    height: 1499px;
+    background: #666;
+    /* 让整个网页在浏览器中居中 */
+    margin: 0 auto;
+}
+#wolong .w_header{
+    width: 999px;
+    height: 100px;
+    background: #fff;
+}
+.w_header .logo{
+    float: left;
+    width: 247px;height: 23px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* 把h1中的文字隐藏 */
+    text-indent: -1000px;
+}
+.w_header .h_right{
+    float: right;
+}
+
+
+#wolong .w_nav{
+    width: 999px;height: 60px;background: #323232;
+}
+.w_nav ul{
+    height: 60px;
+}
+.w_nav ul li{
+    float: left;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.w_nav ul li a{
+    /* a标签不能继承父元素的字体颜色，只能给a标签本身设置 */
+    color: #fff;
+}
+.w_nav ul li:hover{
+    background: orange;
+}
+
+
+#wolong .w_main{
+    width: 999px;height: 545px;
+    background: #fff;
+}
+
+#wolong .w_link{
+    width: 999px;height: 250px;background: #e5e5e5;
+}
+#wolong .w_footer{
+    width: 999px;height: 80px;
+    background: #fff;
+}

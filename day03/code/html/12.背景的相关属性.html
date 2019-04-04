@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            /* 
+                1、background-color:背景颜色
+                2、background-image:url(图片路径)
+                3、background-repeat：repeat（平铺） | no-repeat（不平铺）|repeat-x(水平方向平铺) | repeat-y（垂直方向平铺）
+                4、background-position:属性值1 属性值2；
+                属性值1代表水平方向，取值：left|right|数值+单位|百分比
+                属性值2代表垂直方向，取值：top|bottom|数值+单位|百分比
+                当background-position的值为数值的时候，如果属性值1的值为负值的时候，往左边移动，正值则往右移动
+                如果属性值2的取值为数值的时候，正值往下移动，负值往上移动
+             */
+            background-color: red;
+            background-image: url(../images/tu.png);
+            background-repeat: repeat-x;
+            background-position: right bottom;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+
+</body>
+
+</html>

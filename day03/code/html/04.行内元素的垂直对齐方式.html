@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        span {
+            font-size: 100px;
+            /* 垂直的对齐方式：vertical-align，只对行内元素有作用
+                取值：top（顶线对齐） | middle（中对齐，垂直居中对齐） | baseline（基线对齐，默认值）|bottom（底线对齐）
+
+                注意点：垂直对齐是两个以上的元素对比来对齐，需要给对比的元素都设置vertical-align，而且属性值是一样的
+             */
+            vertical-align: top;
+        }
+
+        .span1 {
+            font-size: 150px;
+            vertical-align: top;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <i class="span1">rgl</i>
+    <span>aaaa</span>
+
+</body>
+
+</html>
